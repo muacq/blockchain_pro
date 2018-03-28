@@ -1,0 +1,6 @@
+org/hyperledger/fabric/sdk/transaction/InstantiateProposalBuilder$1.class
+org/hyperledger/fabric/sdk/ChaincodeEndorsementPolicy$1.class
+org/hyperledger/fabric/sdk/Channel$1.class
+org/hyperledger/fabric/sdk/ChaincodeID$1.class
+org/hyperledger/fabric/sdk/transaction/InstallProposalBuilder$1.class
+org/hyperledger/fabric/sdk/transaction/ProposalBuilder$1.class

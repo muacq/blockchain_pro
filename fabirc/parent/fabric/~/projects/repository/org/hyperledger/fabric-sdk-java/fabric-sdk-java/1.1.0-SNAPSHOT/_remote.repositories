@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Mar 25 18:08:13 CST 2018
+fabric-sdk-java-1.1.0-SNAPSHOT.jar>=
+fabric-sdk-java-1.1.0-SNAPSHOT.pom>=

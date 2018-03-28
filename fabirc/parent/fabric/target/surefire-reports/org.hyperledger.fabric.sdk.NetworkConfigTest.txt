@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.hyperledger.fabric.sdk.NetworkConfigTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.055 sec - in org.hyperledger.fabric.sdk.NetworkConfigTest
