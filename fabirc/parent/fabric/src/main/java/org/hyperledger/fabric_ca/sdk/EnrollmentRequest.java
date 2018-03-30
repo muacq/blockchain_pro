@@ -38,7 +38,7 @@ public class EnrollmentRequest {
     // A PEM-encoded string containing the CSR (Certificate Signing Request) based on PKCS #10
     private String csr;
     // Comma-separated list of host names to associate with the certificate
-    private Collection<String> hosts = new ArrayList<>();
+    private Collection<String> hosts = new ArrayList<String>();
     // Name of the signing profile to use when issuing the certificate
     private String profile = null;
     // Label used in HSM operations
@@ -121,7 +121,7 @@ public class EnrollmentRequest {
     }
 
     public Collection<String> getHosts() {
-        return new ArrayList<>(hosts);
+        return new ArrayList<String>(hosts);
     }
 
     public void addHost(String host) {
@@ -186,7 +186,7 @@ public class EnrollmentRequest {
             throw new InvalidArgumentException("Attributes have already been defined.");
 
         }
-        attrreqs = new HashMap<>();
+        attrreqs = new HashMap<String, AttrReq>();
     }
 
     /**
@@ -211,7 +211,7 @@ public class EnrollmentRequest {
         AttrReq(String name) {
             this.name = name;
             if (attrreqs == null) {
-                attrreqs = new HashMap<>();
+                attrreqs = new HashMap<String, AttrReq>();
             }
             attrreqs.put(name, this);
         }
